@@ -174,6 +174,49 @@
     transform: translateX(3px);
   }
 
+  section.experience {
+    padding: 12px 0 40px;
+    border-top: 1px solid var(--line);
+  }
+
+  section.experience h2 {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--muted);
+    margin: 32px 0 20px;
+  }
+
+  .role-entry {
+    padding: 20px 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .role-entry:first-of-type {
+    border-top: 1px solid var(--line);
+  }
+
+  .role-title {
+    font-size: 18px;
+    margin: 0 0 4px;
+  }
+
+  .role-meta {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 12.5px;
+    color: var(--accent);
+    margin: 0 0 8px;
+  }
+
+  .role-desc {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.55;
+    color: var(--ink);
+    margin: 0;
+    max-width: 54ch;
+  }
+
   footer {
     font-family: "Helvetica Neue", Arial, sans-serif;
     font-size: 13px;
@@ -226,6 +269,40 @@
             ductulator readings on active projects.
           </p>
         </a>
+      </section>
+
+      <section class="experience">
+        <h2>Experience</h2>
+
+        <div class="role-entry">
+          <p class="role-title">Lead Project Engineer</p>
+          <p class="role-meta">JMV Consulting Engineering &middot; New York, NY &middot; Jul 2025&ndash;Present</p>
+          <p class="role-desc">
+            Coordinate mechanical, plumbing, and fire protection design across disciplines and
+            external stakeholders on high-rise building conversion projects.
+          </p>
+        </div>
+
+        <div class="role-entry">
+          <p class="role-title">Manufacturing Engineering Intern</p>
+          <p class="role-meta">Accurate Tool and Die &middot; Stamford, CT &middot; May&ndash;Aug 2024</p>
+          <p class="role-desc">
+            Programmed CNC toolpaths (G-code) from blueprints to machine aerospace components for
+            Boeing, Sikorsky, and Norco, holding tolerances to &plusmn;0.01" across aluminum alloys
+            and stainless steel. Performed quality inspection with optical comparators and contact
+            tracers &mdash; hands-on exposure to the full product cycle from design intent to
+            verified part.
+          </p>
+        </div>
+
+        <div class="role-entry">
+          <p class="role-title">Mechanical Engineering Intern</p>
+          <p class="role-meta">AECOM &middot; New York, NY &middot; Jun&ndash;Aug 2023</p>
+          <p class="role-desc">
+            Modeled building energy and system performance in Cove.tool for a planned NJ bus garage;
+            reviewed mechanical calculations and drawings in Revit and AutoCAD.
+          </p>
+        </div>
       </section>
     </main>
 
